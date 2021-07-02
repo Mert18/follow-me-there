@@ -11,7 +11,7 @@ const App = () => {
         <Layout>
             <div className='container'>
                 <header className="container-hero">
-                    <h2>Folow me There helps you to create set of instructions and share it easily.</h2>
+                    <h2>Follow me There helps you to create set of instructions and share it easily.</h2>
                 </header>
 
                 <main className="container-main">
