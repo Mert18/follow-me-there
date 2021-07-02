@@ -1,0 +1,40 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+}
+
+.container-hero{
+    grid-column: 4 / 22;
+    justify-self: center;
+    padding: 2rem;
+}
+
+.container-main{
+    grid-column: 7 / 20;
+}
+.havecode {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+}
+.havecode input{
+    height: 8vh;
+    font-size: 2rem;
+    width: 50%;
+    text-align: center;
+}
+.havecode label {
+    font-size: 1.5rem;
+}
+
+.createone{
+    padding: 1rem;
+}
+.createone button{
+    height: 4vh;
+    width: 20%;
+}

@@ -1,0 +1,32 @@
+
+.header{
+    height: 14vh;
+    background-color: rgb(244, 244, 245);
+
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+}
+
+.header-logo{
+    grid-column: 2 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav{
+    grid-column: 8 / 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav ul li{
+    margin-right: 3rem;
+}
+.header-nav ul li:last-child{
+    margin-right: 0rem;
+}
